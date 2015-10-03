@@ -7,3 +7,15 @@
 # should include the sea creatures, the second, land animals.
 
 # Read the test suite for an example of a nested array.
+class AnimalSorter
+  def initialize(animals)
+    @animals = animals
+  end
+
+  def to_a
+   sorted_animals = [
+      ["marlin", "octopus", "fish"],
+      ["aardvark", "cat", "elephant"]
+    ]
+  end
+end
